@@ -19,7 +19,7 @@ function App() {
     setError(null);
     
     try {
-      const response = await fetch('http://localhost:5030/predict', {
+      const response = await fetch('https://vitmorganfingerprints.onrender.com/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
